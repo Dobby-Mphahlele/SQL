@@ -25,6 +25,4 @@ WHERE TABLE_NAME = @TableName;
 -- Execute the generated SQL
 EXEC sp_executesql @SQL;
 
-USE [world_layoffs_project]
-GO
 
